@@ -590,7 +590,7 @@ def main():
     App = Application(root)
     x = 100
     y = 50
-    root.iconbitmap('shark.ico')
+    #root.iconbitmap('shark.ico')
     root.geometry("+{}+{}".format(x, y))
     root.mainloop()
     
