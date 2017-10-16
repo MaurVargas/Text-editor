@@ -1,5 +1,6 @@
 # Text-editor
  This is a the text editor project for python programmers
+ It is written to run with Python 3
 
  Note: this is my first project, it is not intended to be use. It is a project for learning purposes.
        The program is not really well organized and there's no documentation.
