@@ -71,7 +71,6 @@ class Application(Frame):
 
         self.notebook.bind('<Button-3>', self.doPopup)
 
-#-------------------AUXILIAR FUNCTIONS------------------------
     def testfunc(self, event):
         print('hello mothafucka')
 
