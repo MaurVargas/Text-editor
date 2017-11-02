@@ -114,7 +114,6 @@ class Application(Frame):
         finally:
             self.popup_menu.grab_release()
            
-#-------------------FILE MENU FUNCTIONS------------------------    
     def onNewFile(self):
         """Create a blank new file."""
         self.createTab()
@@ -208,7 +207,6 @@ class Application(Frame):
                     return
         self.master.destroy()
         
-#-------------------EDIT MENU FUNCTIONS------------------------
     def onUndo(self):
         """Undo the last edit."""
         current_tab = self.notebook.children[(self.notebook.select().split('.')[3])]
@@ -234,7 +232,6 @@ class Application(Frame):
         current_tab = self.notebook.children[(self.notebook.select().split('.')[3])]
         current_tab.paste()
 
-#----------------NOTEBOOK POPUP MENU FUNCTIONS------------------
     def changeName(self):
         """pops a window and change the current tab name"""
         new_window = Toplevel(self.master, height=100, width=300, takefocus=True)
@@ -255,8 +252,6 @@ class Application(Frame):
         CancelButton.grid(row=7, column=4, columnspan=2)
         OkButton.grid(row=7, column=2, columnspan=2)
 
-            
-#-------------------STYLE MENU FUNCTIONS------------------------    
     def onEnableHighlight(self):
         """enable python text highlight if it is currently disabled"""
         current_tab = self.notebook.children[(self.notebook.select().split('.')[3])]
