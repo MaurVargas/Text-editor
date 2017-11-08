@@ -1,4 +1,4 @@
-# Text-editor
+# text-editor
  This is a the text editor project for python programmers.
  It is written to run with Python 3.
 
