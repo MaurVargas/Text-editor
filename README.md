@@ -9,7 +9,7 @@
  The name of this text editor will be MEditor.
 
  Things yet to be implemented...
- * Change color option (when text is in pyhton highlight mode)
- * Docstring highlight algorithm
- * 'X' button right after the tab name to close the tab
+ * iss1) Change color option (when text is in pyhton highlight mode)
+ * iss2) Docstring highlight algorithm
+ * iss3) 'X' button right after the tab name to close the tab
 
