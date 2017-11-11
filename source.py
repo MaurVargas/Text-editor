@@ -71,10 +71,6 @@ class Application(Frame):
 
         self.notebook.bind('<Button-3>', self.doPopup)
 
-#-------------------AUXILIAR FUNCTIONS------------------------
-    def testfunc(self, event):
-        print('hello mothafucka')
-
     def createTab(self, tab_name='New tab', file_name=None, highlight=True):
         """create a new tab."""
         new_tab = Tab(self.notebook, file_name=file_name, highlight=highlight)
